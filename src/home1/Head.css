@@ -1,0 +1,31 @@
+.main1{
+    width: 100vw;
+    height: 10vh;
+    /* background: linear-gradient(135deg, #0A0F1F, #1A1A2E, #0D1117); */
+    background-color: #0A0F1F;
+    color: white;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 100px;
+    position: relative;
+}
+.main1 h1{
+    margin: 0px;
+}
+.main11{
+    position: absolute;
+    top: 17px;
+    right: 200px;
+}
+.main11 button{
+    width: 100px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color:  #29B6F6;
+    color: white;
+    
+}
+#b2{
+    margin-left: 10px;
+}
