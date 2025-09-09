@@ -7,13 +7,13 @@ function Middle() {
             <div className='main21'>
                  <table>
                     <tr>
-                        <td>Access past papers anytime</td>
+                        <td><h2>Access past papers anytime</h2></td>
                     </tr>
                     <tr>
-                        <td>prepare smarter with curated tools</td>
+                        <td><h2>prepare smarter with curated tools</h2></td>
                     </tr>
                     <tr>
-                        <td>and succeed better in every exam</td>
+                        <td><h2>and succeed better in every exam</h2></td>
                     </tr>
                  </table>
             </div>
@@ -67,6 +67,11 @@ function Middle() {
             <h3>©2025 Campus Question Bank</h3>
                <h3> All rights reserved.</h3>
         </div>
+        <div className='main26'>
+            <button id='b3'>Register Now  →</button>
+        </div>
+        
+        
     </div>
   )
 }

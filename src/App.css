@@ -1,3 +1,9 @@
 .App{
-  overflow-x: visible;
+  background: radial-gradient(
+      circle at top left,
+      rgba(0, 0, 0, 0.6),
+      transparent 40%
+    ),
+    radial-gradient(circle at top right, rgba(0, 0, 0, 0.6),transparent 40%),
+    linear-gradient(135deg, #0f2027, #155751);
 }

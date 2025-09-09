@@ -1,10 +1,12 @@
 .main2{
   width: 100vw;
   height: 180vh;
-  background-color: #181f3a;
+  
+  
   color: #FFFFFF;
   font-family: 'Poppins', sans-serif;
   position: relative;
+  
 }
 .main22{
   width: 70vw;
@@ -13,33 +15,49 @@
 
 }
 .main22 img{
-  width: 50vw;
-  height: 500px;
+  width: 40vw;
+  height: 550px;
   position: absolute;
-  top: 60px;
-  right: 60px;
-  border-radius: 12px;
+  top: 50px;
+  right: 90px;
+  border-radius: 100%;
   /* box-shadow: 0 0 40px rgba(41, 182, 246, 0.3); */
-  box-shadow: 0px 0px 50px  white;
+  /* box-shadow: 0px 0px 50px  white; */
+  filter: drop-shadow(0px 0px 250px white);
+  border: 3px rgb(7, 7, 40) solid;
+
 }
 .main21{
-  height: 400px;
-  width: 30vw;
+  height: 500px;
+  width: 40vw;
   color: white;
   position: absolute;
-  top: 15%;
+  top: 12%;
   left: 9%;
-  font-size: xx-large;
-  font-family: poppins;
+  font-size: x-large;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
   
 }
+.main21 h2{
+  margin: 0px;
+  background: url("gra.jpeg") center;
+  background-size: cover;
+  background-clip: text;
+  color: transparent;
+  animation: animate 3s linear infinite;
+  filter: drop-shadow( 0px 0px 5px rgb(29, 22, 22));
+}
 
-
+@keyframes animate{
+  to{
+    background-position-x : -500px;
+  }
+}
 
 
 
 .main21 td{
-  padding-top: 10px;
+  padding-top: 20px;
 }
 .main23{
   position: absolute;
@@ -65,7 +83,7 @@ margin: 0px;
 .main25 {
   height: 40vh;
   width: 100vw;
-  background-color:  #181f3a;
+   background:linear-gradient(135deg, #0f2027, #155751);
   color: white;
   padding-left: 60px;
   font-size: x-large;
@@ -87,4 +105,32 @@ margin: 0px;
   flex-direction: column;
   justify-content: space-evenly;
   
+}
+.main26{
+  position: absolute;
+  top: 70%;
+  left: 15%;
+}
+#b3{
+  height: 50px;
+  width: 220px;
+  padding: 10px;
+  font-size: x-large;
+  border-radius: 20px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(19, 162, 218);
+  color: #FFFFFF;
+  transition: all 0.2s ease-in-out;
+}
+
+#b3:hover{
+  transform: scale(1.05);
+  background-color: rgb(0, 81, 255);
+  transition: all 0.2s ease-in-out;
+}
+#b3:active{
+  transform: scale(0.9);
+  transition: all 0.05s ease-in-out;
 }
